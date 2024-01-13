@@ -4,5 +4,28 @@ const initialItems = [
 ];
 
 export default function App() {
-  return <div>Hello World</div>;
+  return (
+    <div className="app">
+      <Logo />
+      <Form />
+      <PackingList />
+      <Stats />
+    </div>
+  );
+}
+
+function Logo() {
+  return <div>Logo</div>;
+}
+
+function Form() {
+  return <div>Form</div>;
+}
+
+function PackingList() {
+  return <div>list</div>;
+}
+
+function Stats() {
+  return <div>stats</div>;
 }
